@@ -808,7 +808,6 @@ main {
 }
 
 .timelines-list {
-  list-style-type: disc;
   font-size: var(--fs-6);
   margin-left: 5px;
 }
@@ -839,6 +838,16 @@ main {
   background: var(--text-gradient-yellow);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
+}
+
+.timelines-list li::before {
+    content: "•"; /* Unicode bullet */
+    color: yellow; /* Change to match your theme */
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .timelines-text {
