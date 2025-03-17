@@ -743,6 +743,7 @@ main {
 }
 
 .timeline-list {
+  
   font-size: var(--fs-6);
   margin-left: 45px;
 }
@@ -807,6 +808,7 @@ main {
 }
 
 .timelines-list {
+  list-style-type: disc;
   font-size: var(--fs-6);
   margin-left: 5px;
 }
