@@ -808,7 +808,8 @@ main {
 }
 
 .timelines-list {
-  font-size: var(--fs-6);
+  font-size: var(--fs-10);
+  margin-bottom: 8px;
   margin-left: 5px;
 }
 
